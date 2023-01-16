@@ -1,3 +1,5 @@
+package old;
+
 public class UserService {
 
     public Account createUser(String name) {
@@ -10,5 +12,9 @@ public class UserService {
 
     public Account createUser(String name, String password) {
         return new User(name, password);
+    }
+
+    public void addMoney(Account account) {
+        account.money = account.money + 10;
     }
 }

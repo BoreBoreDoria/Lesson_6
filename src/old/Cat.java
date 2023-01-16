@@ -1,3 +1,5 @@
+package old;
+
 public class Cat extends Animal {
     @Override
     public void test() {

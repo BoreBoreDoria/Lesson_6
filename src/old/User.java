@@ -1,3 +1,7 @@
+package old;
+
+import old.Account;
+
 public class User extends Account {
 
     public User(String name) {

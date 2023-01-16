@@ -1,3 +1,5 @@
+package old;
+
 public class Animal {
 
     public void test() {
