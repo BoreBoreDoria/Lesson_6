@@ -1,3 +1,6 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         /**
@@ -36,6 +39,8 @@ public class Main {
 
         //Пример полиморфизма - 2 на основе перегрузки метода
         cat.test();
-        cat.test("Максим");
+
+
+
     }
 }
